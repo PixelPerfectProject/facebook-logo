@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #05052e;
+}
+.fb-background{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 40px;
+}
+.fb-background span{
+    color: white;
+    font-size: 507px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate( -50%, -50%);
+}
